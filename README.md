@@ -1,16 +1,88 @@
-# React + Vite
+# 🛒 Amazon Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A modern, responsive Amazon clone built for educational purposes**
 
-Currently, two official plugins are available:
+> ⚠️ **Important Notice:** This project is **not affiliated with, endorsed by, or connected to Amazon.com, Inc.** It is created solely for educational and learning purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A **practice front-end project** that replicates selected parts of Amazon’s UI to improve real‑world development skills using **React** and **modern JavaScript**. The focus is on clean component structure, responsive design, and maintainable code.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies
+
+- ⚛️ **React** – Component-based architecture
+- ⚡ **Vite** – Fast development environment with HMR
+- 🎨 **CSS Modules / CSS3** – Modular and maintainable styling
+- 📜 **JavaScript (ES6+)** – Modern JavaScript features
+- 🧭 **React Router DOM** – Client-side routing
+- 🎠 **Swiper.js** – Carousels and sliders
+
+---
+
+## 📂 Project Structure
+
+```
+amazon-clone/
+├── src/
+│   ├── assets/        # Images and static assets
+│   ├── components/   # Reusable React components
+│   ├── pages/        # Application pages
+│   ├── App.jsx       # Root component
+│   └── main.jsx      # Application entry point
+├── index.html
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone <repository-url>
+cd amazon-clone
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the development server**
+
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to the local server URL shown in the terminal.
+
+---
+
+## 📌 Project Status
+
+- 🚧 Under active development
+- Additional features and improvements may be added
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to fork the repository and submit a pull request.
+
+---
+
+## 👨‍💻 Developer
+
+**Name:** _[Yousef Seifi]_
+**GitHub:** _[https://github.com/new-developer-2025/amazon-shop]_
+
+---
+
+<div align="center">⭐ If you find this project helpful, consider giving it a star! ⭐</div>
