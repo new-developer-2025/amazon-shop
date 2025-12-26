@@ -1,0 +1,17 @@
+.to_top_site {
+  scroll-behavior: smooth;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 100%;
+  height: 40px;
+  z-index: 1500;
+  font-size: 14px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #4f5965;
+}
+.to_top_site:hover {
+  background-color: #656f7a;
+}

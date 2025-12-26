@@ -1,0 +1,480 @@
+/* pulic style */
+.white {
+  color: #ffffff;
+}
+.borderBottom {
+  margin-top: 2px;
+  border-bottom: 1px solid black;
+}
+.fontSize12 {
+  font-size: 12px;
+}
+/* header */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #131921;
+  padding: 10px 16px;
+  color: #fff;
+  background-color: rgb(2, 74, 50);
+}
+.controlHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: rgb(2, 74, 50);
+}
+/* logo */
+.logo {
+  width: 100%;
+  max-width: 115px;
+  height: 100%;
+  max-height: 48.64px;
+  padding: 4px;
+  border-radius: 6px;
+}
+.logo:hover {
+  background: rgba(255, 255, 255, 0.06);
+  transform: translateY(-1px);
+}
+/* location */
+.location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+.location:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.locationSvg {
+  width: 100%;
+  max-width: 27px;
+  height: 100%;
+  max-height: 24.26px;
+  margin-top: 2px;
+}
+/* country */
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.country span:first-child {
+  font-size: 12px;
+  color: #d5d7db;
+}
+.country span:last-child {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+/* tooltip */
+.tooltip {
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  top: 75px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #111;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+.controlBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.tooltip .change {
+  margin-left: 50px;
+  background-color: #febd69;
+}
+.tooltip .change a {
+  color: black;
+}
+.tooltip button {
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: 1px solid gainsboro;
+}
+/* selectItems */
+.selectItems {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: relative;
+  cursor: pointer;
+}
+.selectItems .options {
+  width: 100%;
+  max-width: 60px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #e6e2e2;
+}
+.selectItems input {
+  flex: 1;
+  border: none;
+  padding: 0 12px;
+  font-size: 14px;
+  outline: none;
+}
+/* searchImage */
+.searchImage {
+  background-color: #febd69;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+}
+.searchImage img {
+  width: 100%;
+  max-width: 30px;
+  height: 100%;
+  max-height: 30px;
+}
+.searchImage:hover {
+  background-color: #f3a847;
+}
+/* headerRight */
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+/* Language */
+.language {
+  position: relative;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+.language:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+/* languageTrigger */
+.languageTrigger {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+.languageBox {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 280px;
+  background: #fff;
+  color: #111;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+  padding: 10px;
+  overflow: hidden;
+}
+.languageBox li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 6px;
+  border-radius: 6px;
+}
+.languageBox li:hover {
+  background: #f7f7f7;
+}
+.languageBox li input[type="radio"] {
+  accent-color: #ff9900;
+}
+.languageBox li p {
+  font-size: 13px;
+  margin: 0;
+}
+.languageBox .moreInfo {
+  justify-content: space-between;
+  font-size: 12px;
+  color: #111;
+}
+.languageBox .details {
+  color: #007185;
+  font-size: 12px;
+}
+/* region */
+.region {
+  display: block;
+  margin-top: 4px;
+  color: #007185;
+  font-size: 13px;
+}
+/* overlay */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 5;
+  pointer-events: none;
+}
+/* signIn */
+.signIn {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.signIn li:first-child p {
+  font-size: 12px;
+}
+.signIn li:last-child p {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.account {
+  display: flex;
+}
+/* signInBox */
+.signInBox {
+  position: absolute;
+  top: calc(100% / 9.2);
+  right: 9%;
+  width: 100%;
+  max-width: 525px;
+  height: 100%;
+  max-height: 320px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  padding: 5px;
+  overflow-y: auto;
+  text-align: center;
+}
+.signInBox button {
+  width: 100%;
+  max-width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffd814;
+  background-color: rgba(239, 179, 8, 1);
+  cursor: pointer;
+}
+.signInBox button:hover {
+  background-color: #f7ca00;
+}
+/* customer */
+.customer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.customer span {
+  color: black;
+}
+.customer a {
+  margin-left: 5px;
+  color: rgba(0, 113, 133, 1);
+}
+.list {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.left,
+.rigth {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.rigth {
+  border-left: 2px solid #e5e7eb;
+  padding-left: 10px;
+}
+.left a,
+.rigth a {
+  color: #111;
+  font-size: 12px;
+}
+.left a:hover,
+.rigth a:hover {
+  color: rgb(228, 121, 17);
+}
+.left p:first-child,
+.rigth p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+/* returnsOrders */
+.returnsOrders {
+  margin-left: 10px;
+}
+.returnsOrders:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.returnsOrders p:last-child {
+  font-size: 15px;
+  font-weight: 600;
+}
+/* shopingCart */
+.shopingCart {
+  position: relative;
+  width: 110px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.shopingCart:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.shopingCart img {
+  width: 100%;
+  max-width: 60px;
+  height: auto;
+}
+.shopingCart p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.shopingCart .counter {
+  position: relative;
+}
+.shopingCart .counter span {
+  position: absolute;
+  top: 2px;
+  right: 18px;
+  min-width: 18px;
+  height: 18px;
+  display: grid;
+  place-items: center;
+  color: #f97316;
+  border-radius: 999px;
+  font-weight: 500;
+}
+/* subnNav */
+.labelToggle .line {
+  width: 28px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 0.4s ease;
+}
+.close-button .active .line1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.close-button .active .line2 {
+  opacity: 0;
+}
+.close-button .active .line3 {
+  transform: rotate(-45deg) translate(10px, -10px);
+}
+/* hamburgerOverlay */
+.hamburgerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+.logo,
+.location,
+.returnsOrders {
+  cursor: pointer;
+}
+.hamburgerOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+}
+@media (max-width: 1440px) {
+  .returnsOrders,
+  .location {
+    display: none;
+  }
+  .logo,
+  .shopingCart {
+    padding: 0;
+  }
+  .language,
+  .shopingCart {
+    gap: 0;
+  }
+  .signIn {
+    margin-left: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .signIn {
+    display: none;
+  }
+}
+/* responsive for tablet */
+@media (max-width: 768px) {
+  .language,
+  .signIn,
+  .shopingCart p {
+    gap: 0;
+  }
+  .shopingCart p {
+    display: none;
+  }
+  .controlHeader {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 425px) {
+  .location {
+    display: flex;
+  }
+  .signIn,
+  .options {
+    display: none;
+  }
+  /* searchImage */
+  .searchImage img {
+    width: 100%;
+    max-width: 25px;
+  }
+  /* tooltip */
+  .tooltip {
+    width: 100%;
+    max-width: 275px;
+    position: absolute;
+    top: 60px;
+    left: 25px;
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+  .controlBtn {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .tooltip .change {
+    margin-left: 10px;
+  }
+  .tooltip button {
+    padding: 2.5px 5px;
+  }
+}
