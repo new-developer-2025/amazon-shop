@@ -8,7 +8,8 @@
 
 ## 📖 About
 
-A **practice front-end project** that replicates selected parts of Amazon’s UI to improve real‑world development skills using **React** and **modern JavaScript**. The focus is on clean component structure, responsive design, and maintainable code.
+This project is a **front-end practice application** that replicates selected parts of Amazon’s user interface.  
+The main goal is to strengthen real-world front-end development skills by working with modern tools, reusable components, and responsive layouts.
 
 ---
 
@@ -28,15 +29,31 @@ A **practice front-end project** that replicates selected parts of Amazon’s UI
 ```
 amazon-clone/
 ├── src/
-│   ├── assets/        # Images and static assets
-│   ├── components/   # Reusable React components
-│   ├── pages/        # Application pages
-│   ├── App.jsx       # Root component
-│   └── main.jsx      # Application entry point
+│   ├── assets/              # Images and static assets
+│   ├── components/
+│   │   ├── Button/
+│   │   │   └── Button.jsx
+│   │   ├── data/
+│   │   │   └── products.js
+│   │   ├── layout/
+│   │   │   ├── Card.jsx
+│   │   │   └── Slider.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── ProductDetails.jsx
+│   │   ├── Ui/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── PageLoader.jsx
+│   │   ├── content/
+│   │   │   └── CartContext.jsx
+│   │   └── hooks/
+│   │       └── useCart.jsx
+│   ├── App.jsx              # Root component
+│   └── main.jsx             # Application entry point
 ├── index.html
 ├── package.json
 └── README.md
-```
 
 ---
 
