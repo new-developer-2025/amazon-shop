@@ -35,7 +35,6 @@ const ProductDetails = () => {
 
   const { updateCart, getItemInCart } = useCart();
   const currentCartItem = getItemInCart(product.id);
-  // const inCart = !!currentCartItem;
   const inCart = Boolean(currentCartItem);
 
   // ---------- Pricing Constants ----------
@@ -467,7 +466,6 @@ const ProductDetails = () => {
           </div>
           <div className={styles.old_price}>
             <span>$</span>
-            {/* <p>{product.oldPrice}</p> */}
             <p>Price: {price.toLocaleString()} </p>
             <span>99</span>
           </div>

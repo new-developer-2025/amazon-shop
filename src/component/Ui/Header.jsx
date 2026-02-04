@@ -15,7 +15,6 @@ import language from "../../assets/images/language.webp";
 import styles from "../Ui/Header.module.css";
 
 const Header = () => {
-  // const [changeLocation, setChangeLocation] = useState(true);
   const [changeLocation, setChangeLocation] = useState(() => {
     const hasSeen = localStorage.getItem("hasSeenLocationMessage");
     return hasSeen !== "true";
@@ -58,7 +57,6 @@ const Header = () => {
   };
   // for get value in array
   const handleChange = (e) => {
-    // setSelectedOption(selectedValues);
     const values = Array.from(
       e.target.selectedOption,
       (option) => option.value
@@ -358,7 +356,6 @@ const Header = () => {
               <img src={arrowRight} alt="arrow right" width="25" height="25" />
             </a>
           </li>
-          {/* <hr /> */}
           <h3>Shop by Department</h3>
           <li>
             <a href="#">
@@ -535,7 +532,6 @@ const Header = () => {
               ></span>
             </button>
           </li>
-          {/*  */}
           <h3>Help & Settings</h3>
           <li>
             <a href="#">
