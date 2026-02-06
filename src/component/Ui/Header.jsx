@@ -356,6 +356,7 @@ const Header = () => {
               <img src={arrowRight} alt="arrow right" width="25" height="25" />
             </a>
           </li>
+          {/* <hr /> */}
           <h3>Shop by Department</h3>
           <li>
             <a href="#">
@@ -532,6 +533,7 @@ const Header = () => {
               ></span>
             </button>
           </li>
+          {/*  */}
           <h3>Help & Settings</h3>
           <li>
             <a href="#">

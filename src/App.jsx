@@ -3,7 +3,7 @@ import Home from "./component/pages/Home";
 import { CartProvider } from "./context/CartContext";
 import { Suspense, lazy } from "react";
 import PageLoader from "./component/Ui/PageLoader";
-// Lazy loading
+// Lazy Pages
 const ProductDetails = lazy(() => import("./component/pages/ProductDetails"));
 
 const App = () => {
